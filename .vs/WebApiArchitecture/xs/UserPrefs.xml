@@ -1,0 +1,62 @@
+﻿<Properties StartupConfiguration="{F959E799-EAC0-4178-8280-5071C17AF830}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WebApiArchitecture PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Service/Services/CityService.cs">
+    <Files>
+      <File FileName="Service/Services/Interfaces/ICityService.cs" Line="15" Column="46" />
+      <File FileName="Service/Services/CityService.cs" Line="40" Column="69" />
+      <File FileName="WebApiArchitecture/Controllers/Admin/CityController.cs" Line="37" Column="103" />
+      <File FileName="WebApiArchitecture/Program.cs" Line="57" Column="50" />
+      <File FileName="WebApiArchitecture/appsettings.json" Line="1" Column="1" />
+      <File FileName="WebApiArchitecture/appsettings.Development.json" Line="8" Column="5" />
+      <File FileName="WebApiArchitecture/Controllers/Admin/CountryController.cs" Line="29" Column="69" />
+      <File FileName="WebApiArchitecture/Middlewares/ExceptionHandligMiddleware.cs" Line="53" Column="39" />
+      <File FileName="Service/Helpers/Exceptions/NotFoundException.cs" Line="6" Column="56" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebApiArchitecture" expanded="True">
+            <Node name="Domain" expanded="True">
+              <Node name="Configurations" expanded="True" />
+            </Node>
+            <Node name="Repository" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Repositories" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Service" expanded="True">
+              <Node name="DTOs" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Cities" expanded="True" />
+                  <Node name="Countries" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Helpers" expanded="True">
+                <Node name="Exceptions" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+                <Node name="CityService.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="WebApiArchitecture" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="Admin" expanded="True" />
+              </Node>
+              <Node name="Middlewares" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+</Properties>

@@ -1,0 +1,42 @@
+2024-06-26 19:09:40.475 +04:00  INF  Now listening on: https://localhost:7196
+2024-06-26 19:09:40.493 +04:00  INF  Now listening on: http://localhost:5213
+2024-06-26 19:09:40.495 +04:00  INF  Application started. Press Ctrl+C to shut down.
+2024-06-26 19:09:40.495 +04:00  INF  Hosting environment: Development
+2024-06-26 19:09:40.495 +04:00  INF  Content root path: /Users/fatimagaykhanova/Desktop/WebApiArchitecture/WebApiArchitecture/
+2024-06-26 19:09:41.618 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7196/swagger/index.html - -
+2024-06-26 19:09:41.680 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 63.2361ms
+2024-06-26 19:09:41.727 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7196/swagger/v1/swagger.json - -
+2024-06-26 19:09:41.783 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 55.6317ms
+2024-06-26 19:09:45.551 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7196/api/admin/Country/GetAll - -
+2024-06-26 19:09:45.581 +04:00  INF  Executing endpoint 'WebApiArchitecture.Controllers.Admin.CountryController.GetAll (WebApiArchitecture)'
+2024-06-26 19:09:45.598 +04:00  INF  Route matched with {action = "GetAll", controller = "Country"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller WebApiArchitecture.Controllers.Admin.CountryController (WebApiArchitecture).
+2024-06-26 19:09:46.123 +04:00  INF  Entity Framework Core 6.0.31 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.31' with options: MigrationsAssembly=Repository 
+2024-06-26 19:09:46.179 +04:00  INF  Country GetAll is working
+2024-06-26 19:09:46.582 +04:00  INF  Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CountryId], [c].[CreatedDate], [c].[Name], [c].[SoftDelete]
+FROM [Countries] AS [c]
+2024-06-26 19:09:46.629 +04:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Service.DTOs.Admin.Countries.CountryDto, Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-26 19:09:46.635 +04:00  INF  Executed action WebApiArchitecture.Controllers.Admin.CountryController.GetAll (WebApiArchitecture) in 1034.2545ms
+2024-06-26 19:09:46.636 +04:00  INF  Executed endpoint 'WebApiArchitecture.Controllers.Admin.CountryController.GetAll (WebApiArchitecture)'
+2024-06-26 19:09:46.641 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7196/api/admin/Country/GetAll - - - 200 - application/json;+charset=utf-8 1089.4732ms
+2024-06-26 19:55:06.073 +04:00  INF  Now listening on: https://localhost:7196
+2024-06-26 19:55:06.093 +04:00  INF  Now listening on: http://localhost:5213
+2024-06-26 19:55:06.095 +04:00  INF  Application started. Press Ctrl+C to shut down.
+2024-06-26 19:55:06.095 +04:00  INF  Hosting environment: Development
+2024-06-26 19:55:06.095 +04:00  INF  Content root path: /Users/fatimagaykhanova/Desktop/WebApiArchitecture/WebApiArchitecture/
+2024-06-26 19:55:07.089 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7196/swagger/index.html - -
+2024-06-26 19:55:07.154 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 66.4426ms
+2024-06-26 19:55:07.200 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7196/swagger/v1/swagger.json - -
+2024-06-26 19:55:07.255 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 55.6811ms
+2024-06-26 19:55:17.101 +04:00  INF  Request starting HTTP/1.1 POST https://localhost:7196/api/admin/City/Create application/json 61
+2024-06-26 19:55:17.124 +04:00  INF  Executing endpoint 'WebApiArchitecture.Controllers.Admin.CityController.Create (WebApiArchitecture)'
+2024-06-26 19:55:17.147 +04:00  INF  Route matched with {action = "Create", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Service.DTOs.Admin.Cities.CityCreateDto) on controller WebApiArchitecture.Controllers.Admin.CityController (WebApiArchitecture).
+2024-06-26 19:55:17.655 +04:00  INF  Entity Framework Core 6.0.31 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.31' with options: MigrationsAssembly=Repository 
+2024-06-26 19:55:18.275 +04:00  INF  Executed DbCommand (55ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CountryId], [c].[CreatedDate], [c].[Name], [c].[SoftDelete]
+FROM [Countries] AS [c]
+WHERE [c].[Id] = @__id_0
+2024-06-26 19:55:18.305 +04:00  INF  Executed action WebApiArchitecture.Controllers.Admin.CityController.Create (WebApiArchitecture) in 1154.9513ms
+2024-06-26 19:55:18.306 +04:00  INF  Executed endpoint 'WebApiArchitecture.Controllers.Admin.CityController.Create (WebApiArchitecture)'
+2024-06-26 19:55:18.308 +04:00  ERR   Id-100 Data Not Found
+2024-06-26 19:55:18.313 +04:00  INF  Request finished HTTP/1.1 POST https://localhost:7196/api/admin/City/Create application/json 61 - 404 - application/json 1212.5772ms
